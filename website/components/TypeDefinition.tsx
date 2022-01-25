@@ -50,7 +50,7 @@ function TypeDefinition({
           <InlineCode>{typeName}</InlineCode>
         </div>
 
-        <Code copyable={false} language="typescript">
+        <Code copyable={false} language="typescript" lineNumberStart={0}>
           {interfaceDefinition}
         </Code>
       </div>
